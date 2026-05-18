@@ -1,0 +1,68 @@
+:root {
+  --primary: #ff4500;
+  --primary-dark: #cc3700;
+  --secondary: #1a1a2e;
+  --accent: #e8b800;
+  --surface: #16213e;
+  --surface-light: #0f3460;
+  --text-primary: #ffffff;
+  --text-secondary: #a0aec0;
+  --success: #38a169;
+  --danger: #e53e3e;
+  --border: rgba(255, 255, 255, 0.1);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  scrollbar-color: var(--primary) rgba(255, 255, 255, 0.08);
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+button,
+input,
+select,
+textarea {
+  font: inherit;
+}
+
+.badge-admin {
+  background: #7b2fbe;
+  color: #fff;
+}
+
+.badge-customer {
+  background: var(--primary);
+  color: #fff;
+}
+
+.badge-pending {
+  background: #dd6b20;
+  color: #fff;
+}
+
+.badge-paid,
+.badge-done {
+  background: #38a169;
+  color: #fff;
+}
+
+.badge-shipped {
+  background: #3182ce;
+  color: #fff;
+}
+
+.badge-cancelled {
+  background: #e53e3e;
+  color: #fff;
+}
